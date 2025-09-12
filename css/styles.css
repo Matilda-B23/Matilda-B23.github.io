@@ -1,0 +1,126 @@
+html {
+  background-color: #ebf8f9;
+  color: #2f2f2f;
+  font-family: "nunito";
+}
+.header {
+  color: #2f2f2f;
+  font-weight: 800;
+  text-align: center;
+  top: 0;
+}
+.name {
+  background-color: #6290c3;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-width: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact {
+  display: block;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #6290c3;
+  font-family: nunito;
+  font-size: larger;
+}
+.section {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section h2 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #7b9abe;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.skills li {
+  color: #ebf8f9;
+  background-color: #6290c3;
+  padding: 6px;
+  border-radius: 10px;
+}
+.projectslink {
+  display: inline-block;
+  background-color:  #becfe2;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.projectspg {
+  text-align: center;
+}
+.projectspg h1 {
+  font-size: 50px;
+  background-color: #6290c3;
+  margin-top: 0;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-width: auto;
+}
+.projul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+  background-color: #7b9abe;
+  max-width: 500px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+.projul a {
+  color: #a8c9f0;
+}
+.projdesc {
+  background-color: #7b9abe;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.overview {
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+}
+.skill {
+  display: flex;
+  background-color: #6290c3;
+  border: none;
+  color: #ebf8f9;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  cursor: pointer;
+}
+#skill-info {
+  background-color: #6290c3;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  color: #ebf8f9;
+  border-color: #5a81ae;
+}

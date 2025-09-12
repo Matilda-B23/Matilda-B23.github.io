@@ -1,0 +1,94 @@
+html,
+body {
+  background-color: #ccd5ef;
+  color: #2f2f2f;
+  font-family: "nunito";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.header {
+  color: #2f2f2f;
+  font-weight: 800;
+  text-align: center;
+  top: 0;
+  background-color: #6290c3;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-width: auto;
+  width: 100%vw;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  height: 10rem;
+  width: auto;
+  margin: auto;
+  padding-top: 20px;
+}
+button {
+  border-radius: 10px;
+  background-color: #7b9abe;
+  height: 3rem;
+  color: whitesmoke;
+  font-family: nunito;
+  font-size: larger;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+  color: whitesmoke;
+  font-family: nunito;
+  font-size: larger;
+}
+article {
+  background-color: rgb(232, 234, 250);
+  border-radius: 10px;
+}
+.greeting,
+.outro {
+  background-color: #6290c3;
+  color: #ccd5ef;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.desktop-nav {
+  display: none;
+}
+@media screen and (min-width: 830px) {
+  .mobile-img {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    align-items: start;
+    margin-right: 20px;
+  }
+  .outro,
+  .resume-link {
+    display: none;
+  }
+  .desktop-nav {
+    display: block;
+    background-color: #6290c3;
+    border-radius: 10px;
+    color: #ccd5ef;
+    margin-left: 20px;
+  }
+  .desktop-nav a {
+    background-color: #7b9abe;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .about-me {
+    line-height: 2.5;
+    margin-bottom: 1.2rem;
+  }
+}
